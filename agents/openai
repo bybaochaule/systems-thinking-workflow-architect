@@ -1,1 +1,14 @@
+interface:
+  display_name: "Systems Thinking Workflow Architect"
+  short_description: "Decomposes problems and designs workflows, SOPs, decision trees, lead-gen processes, bottleneck analyses, and agent flows."
+  default_prompt: "Use the Systems Thinking Workflow Architect skill to decompose the process, map the workflow, define decision logic, identify bottlenecks, and add human review gates."
 
+policy:
+  allow_implicit_invocation: true
+
+dependencies:
+  tools: []
+  files:
+    - SKILL.md
+    - README.md
+    - references/style-guide.md
